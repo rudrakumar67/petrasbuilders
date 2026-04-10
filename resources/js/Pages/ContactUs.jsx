@@ -23,21 +23,21 @@ export default function ContactUs() {
                         </p>
                         <div className="space-y-2">
                         <div>
-                            <h4 className="font-bebas text-xl text-primary">Phone : <Link href="tel:+919600663238" className="text-black">+91 9600663238</Link></h4>
+                            <h4 className="font-bebas text-xl text-primary">Phone : <a href="tel:+919600663238" className="text-black">+91 9600663238</a></h4>
                         </div>
                         <div>
-                            <h4 className="font-bebas text-xl text-primary">Email : <Link href="mailto:info@petras.in" className="text-black">info@petras.in</Link></h4>
+                            <h4 className="font-bebas text-xl text-primary">Email : <a href="mailto:info@petras.in" className="text-black">info@petras.in</a></h4>
                         </div>
                         <div>
                             <h4 className="font-bebas text-xl text-primary">Follow Us : </h4>
-                            <Link href="https://wa.me/919600663238" className="font-bebas text-xl text-black mr-4"><FontAwesomeIcon icon={faWhatsapp} /></Link>
-                            <Link href="https://www.facebook.com/petrasbuilders/" className="font-bebas text-xl text-black mr-4"><FontAwesomeIcon icon={faFacebook} /></Link>
-                            <Link href="https://www.instagram.com/petrasbuilders/" className="font-bebas text-xl text-black mr-4"><FontAwesomeIcon icon={faInstagram} /></Link>
-                            <Link href="https://www.linkedin.com/company/petrasbuilders/" className="font-bebas text-xl text-black mr-4"><FontAwesomeIcon icon={faLinkedin} /></Link>
+                            <a href="https://wa.me/919600663238" className="font-bebas text-xl text-black mr-4" target="_blank"><FontAwesomeIcon icon={faWhatsapp} /></a>
+                            <a href="https://www.facebook.com/petrasbuilders/" className="font-bebas text-xl text-black mr-4" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
+                            <a href="https://www.instagram.com/petrasbuilders/" className="font-bebas text-xl text-black mr-4" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                            <a href="https://www.linkedin.com/company/petrasbuilders/" className="font-bebas text-xl text-black mr-4" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
                         </div>
                         <div>
-                            <h4 className="font-bebas text-xl text-primary">Address : <Link href="https://maps.app.goo.gl/22q45e9Y3y5627qG7" className="text-black">99A, Velachery – Tambaram Main Rd,<br />
-                            Sembakkam, Chennai, Tamil Nadu 600073</Link></h4>
+                            <h4 className="font-bebas text-xl text-primary">Address : <a href="https://maps.app.goo.gl/22q45e9Y3y5627qG7" className="text-black">99A, Velachery – Tambaram Main Rd,<br />
+                            Sembakkam, Chennai, Tamil Nadu 600073</a></h4>
                         </div>
 
                         </div>
