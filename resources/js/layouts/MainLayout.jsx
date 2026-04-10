@@ -90,9 +90,9 @@ export default function MainLayout({ children }) {
                     <div>
                         <h3 className="text-xl font-bold mb-4">Contact Us</h3>
                         <ul className="space-y-2">
-                            <li className="text-white"><FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-primary"/> 123 Main St, Anytown, USA</li>
-                            <li className="text-white"><FontAwesomeIcon icon={faPhone} className="mr-2 text-primary"/> (123) 456-7890</li>
-                            <li className="text-white"><FontAwesomeIcon icon={faEnvelope} className="mr-2 text-primary"/> [EMAIL_ADDRESS]</li>
+                            <li className="text-white"><FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text-primary"/>  99A, Velachery – Tambaram Main Rd, Sembakkam, Chennai, Tamil Nadu 600073</li>
+                            <li className="text-white"><FontAwesomeIcon icon={faPhone} className="mr-2 text-primary"/> +91 9600663238</li>
+                            <li className="text-white"><FontAwesomeIcon icon={faEnvelope} className="mr-2 text-primary"/> info@petras.in</li>
                         </ul>
                     </div>
                     <div>

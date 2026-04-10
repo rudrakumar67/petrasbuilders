@@ -8,7 +8,7 @@ export default function About() {
         <div className="bg-white text-gray-700">
 
             {/* HERO */}
-            <section className="relative h-[60vh] flex items-center text-white">
+            {/* <section className="relative h-[60vh] flex items-center text-white">
                 <div className='w-full max-w-7xl mx-auto lg:px-8'>
                     <div
                         className="absolute inset-0 bg-cover bg-center"
@@ -21,17 +21,18 @@ export default function About() {
                         <p className="text-lg mt-2">Petras, The Journey</p>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* JOURNEY */}
-            <section className="py-20 px-6">
+            <section className="py-20 px-6 mt-20">
                 <div className="w-full max-w-7xl mx-auto lg:px-8 grid md:grid-cols-2 gap-10 items-center">
 
                     <div>
                         <h2 className="font-bebas text-5xl text-primary mb-4">
-                            Petras, The Journey
+                            About us
                         </h2>
-                            <h3 className='text-lg text-black mb-4'>Aiming to rise up distinctive value based communities with nurturing environment.</h3>
+
+                        <h3 className='text-lg text-black mb-4'>Petras, The Journey. Aiming to rise up distinctive value based communities with nurturing environment.</h3>
                         <p className="mb-6 text-black">
                             Petras Builders began with a simple residential project in Chennai. We grew steadily by prioritizing quality work, honest communication, and strong client relationships. Over the years, we expanded into commercial and industrial construction, while also offering interior design and architectural planning services. Today, with over 25 completed projects across the region, we remain committed to building trust, safety, and lasting value in every project we undertake.
                         </p>
@@ -42,8 +43,8 @@ export default function About() {
                     </div>
 
                     <img
-                    src="/1.jpeg"
-                    className="w-full h-[400px] object-cover rounded-xl"
+                        src="/1.jpeg"
+                        className="w-full h-[400px] object-cover rounded-xl"
                     />
 
                 </div>
