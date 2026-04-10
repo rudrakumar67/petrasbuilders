@@ -64,7 +64,7 @@ export default function Home() {
                                 className="border border-white px-6 py-3 rounded-lg text-lg font-bebas flex items-center gap-2
                                 opacity-0 translate-y-5 animate-[fadeInUp_0.6s_ease-out_0.3s_forwards]"
                             >
-                                What We Do <FontAwesomeIcon icon={faArrowRight} />
+                                Services <FontAwesomeIcon icon={faArrowRight} />
                             </a>
                             </div>
 
