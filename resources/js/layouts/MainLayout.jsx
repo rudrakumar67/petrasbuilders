@@ -18,27 +18,29 @@ export default function MainLayout({ children }) {
         <nav className="bg-black fixed top-0 w-full z-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-20 items-center">
-                <Link href="/" className="text-xl font-semibold text-gray-900">
-                    <img src="/petras-builders.png" alt="Petras Builders" className="md:h-14 h-12"/>
-                </Link>
-                <div className="hidden md:flex space-x-6">
-                    {menu.map((item, i) => (
-                        <Link
-                            key={i}
-                            href={item.href}
-                            className="text-xl text-white font-bebas tracking-wider hover:text-primary hover:underline"
-                        >
-                            {item.name}
-                        </Link>
-                    ))}
-                
-                </div>
-                <div className="hidden lg:flex items-center space-x-4">
-                    <Link href="/contact" className="btn btn-secondary bg-primary text-white py-2 px-4 rounded text-xl font-bebas tracking-wider">Get a Quote</Link>
-                </div>
-                <button className="md:hidden text-gray-700 focus:outline-none" onClick={() => setMobileMenu(!mobileMenu)}>
-                    <FontAwesomeIcon icon={faBars} className="text-primary" size="2xl"/>
-                </button>
+                    <Link href="/" className="text-xl font-semibold text-gray-900">
+                        <img src="/petras-builders.png" alt="Petras Builders" className="md:h-14 h-12"/>
+                    </Link>
+                    <div className="flex items-center space-x-4">
+                        <div className="hidden md:flex space-x-6">
+                            {menu.map((item, i) => (
+                                <Link
+                                key={i}
+                                href={item.href}
+                                className="text-xl text-white font-bebas tracking-wider hover:text-primary"
+                                >
+                                    {item.name}
+                                </Link>
+                            ))}
+                        
+                        </div>
+                        <div className="hidden lg:flex items-center space-x-4">
+                            <Link href="/contact" className="btn btn-secondary bg-primary text-white py-2 px-4 rounded text-xl font-bebas tracking-wider">Get a Quote</Link>
+                        </div>
+                    </div>
+                    <button className="md:hidden text-gray-700 focus:outline-none" onClick={() => setMobileMenu(!mobileMenu)}>
+                        <FontAwesomeIcon icon={faBars} className="text-primary" size="2xl"/>
+                    </button>
                 </div>
             </div>
             <div
