@@ -139,7 +139,7 @@ export default function Home() {
                         <div className='about-image-frame scroll-left delay-2'>
                             <img
                             src="/3.jpeg"
-                            className="scroll-left delay-2 w-full h-[400px] object-cover rounded-xl"
+                            className="scroll-left delay-2 w-full h-[400px] object-cover"
                             />
                         </div>
                         <div className="scroll-right delay-2">
