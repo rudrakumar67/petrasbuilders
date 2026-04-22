@@ -136,7 +136,13 @@ export default function Home() {
                 {/* WHY CHOOSE US (Left Text / Right Image) */}
                 <section className="py-20 px-6 md:px-16 border-b border-primary">
                     <div className="w-full max-w-7xl mx-auto lg:px-10 grid md:grid-cols-2 gap-10 items-center">
-                        <div className="scroll-left delay-2">
+                        <div className='about-image-frame scroll-left delay-2'>
+                            <img
+                            src="/3.jpeg"
+                            className="scroll-left delay-2 w-full h-[400px] object-cover rounded-xl"
+                            />
+                        </div>
+                        <div className="scroll-right delay-2">
                             <h2 className="scroll-up delay-4 text-4xl md:text-4xl lg:text-7xl font-light leading-tight mb-6">
                                 Why Choose Us
                             </h2>
@@ -157,12 +163,6 @@ export default function Home() {
                                 ))}
                             </ul>
                         </div>  
-                        <div className='about-image-frame scroll-right delay-2'>
-                            <img
-                            src="/3.jpeg"
-                            className="scroll-right delay-2 w-full h-[400px] object-cover rounded-xl"
-                            />
-                        </div>
                     </div>
                 </section>
                 {/* PROCESS (Horizontal Timeline Style) */}
