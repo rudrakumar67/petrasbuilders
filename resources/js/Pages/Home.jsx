@@ -28,7 +28,7 @@ export default function Home() {
                 {/* HERO SECTION */}
                 <section className="relative bg-white overflow-hidden text-black lg:pt-20 pt-25">
                     {/* Background Quarter Circle Image */}
-                    <div className="absolute top-0 right-0 w-[300px] h-[300px] md:w-[700px] md:h-[700px] lg:w-[950px] lg:h-[750px] rounded-bl-full overflow-hidden opacity-0 animate-[fadeInRight_0.7s_ease-out_0.7s_forwards]">
+                    <div className="absolute top-0 right-0 w-[450px] h-[450px] md:w-[700px] md:h-[700px] lg:w-[950px] lg:h-[750px] rounded-bl-full overflow-hidden opacity-0 animate-[fadeInRight_0.7s_ease-out_0.7s_forwards]">
                         <img
                         src="/2.jpeg"
                         alt="Interior Design"
@@ -67,8 +67,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
-                
+                </section>    
                 {/* ABOUT (Image Left / Text Right) */}
                 <section className="py-20 px-6 border-b border-primary">
                     <div className="w-full max-w-7xl mx-auto lg:px-10 grid md:grid-cols-2 gap-10">

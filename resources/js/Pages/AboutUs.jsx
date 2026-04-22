@@ -10,7 +10,7 @@ export default function About() {
                 <div className="w-full max-w-7xl mx-auto lg:px-8 grid md:grid-cols-2 gap-10 items-center">
                     <div>
                         <h2 className="text-4xl md:text-4xl lg:text-7xl font-light leading-tight mb-6 opacity-0 animate-[fadeInUp_0.5s_ease-out_0.5s_forwards]">
-                            About us
+                            About Us
                         </h2>
                         <h3 className='text-lg text-black mb-4 opacity-0 animate-[fadeInUp_0.5s_ease-out_0.6s_forwards]'>Petras, The Journey. Aiming to rise up distinctive value based communities with nurturing environment.</h3>
                         <p className="mb-6 text-black opacity-0 animate-[fadeInUp_0.5s_ease-out_0.7s_forwards]">
